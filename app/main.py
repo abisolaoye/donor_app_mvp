@@ -19,7 +19,7 @@ st.markdown(
         font-size: 30px !important;
         font-weight: 600;
         color: #2c3e50;
-        background-color: #f9f9f9;
+    
     font-family: 'Arial', sans-serif;
         text-align: center;
     }
