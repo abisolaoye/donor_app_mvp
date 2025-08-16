@@ -16,16 +16,18 @@ st.markdown(
     """
     <style>
     .app-title {
-        font-size: 40px !important;
-        font-weight: 700;
+        font-size: 30px !important;
+        font-weight: 600;
         color: #2c3e50;
+        background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
         text-align: center;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
-st.markdown('<h1 class="app-title">Cheerful Giving</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="app-title">Good Samaritan</h1>', unsafe_allow_html=True)
 st.write("Welcome! Make a donation and help others. Your support matters!")
 
 # --- Main Layout ---
