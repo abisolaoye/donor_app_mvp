@@ -28,7 +28,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 st.markdown('<h1 class="app-title">Good Samaritan</h1>', unsafe_allow_html=True)
-st.write("Welcome! Make a donation and help others.\n Your support matters!")
+st.write("Welcome! Make a donation and help others.")
+st.write("Your support matters!")
 
 # --- Main Layout ---
 col1, col2 = st.columns([1, 2])
