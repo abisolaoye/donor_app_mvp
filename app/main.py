@@ -66,9 +66,8 @@ with col2:
     donations = load_donations()
 
     if not donations.empty:
-        st.subheader("📊 Donation Records")
-        st.metric("Total Donors", len(donations))
-        st.metric("Total Donations ($)", donations["amount"].sum())
-        st.dataframe(donations, use_container_width=True)
+         st.subheader("See recent donations (Last 5)")
+    # Show only amount and message
+         st.dataframe(donations.tail(5)[["amount", "message"]])
     else:
         st.info("No donations recorded yet. Be the first to donate!")
